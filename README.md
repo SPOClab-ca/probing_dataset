@@ -59,6 +59,7 @@ Helper files:
     title = {{On the data requirements of probing}},
     author = {Zhu, Zining and Wang, Jixuan and Li, Bai and Rudzicz, Frank},
     year={2022},
+    url={https://aclanthology.org/2022.findings-acl.326/},
     booktitle={{Findings of the Association of Computational Linguistics}}
 }
 ```

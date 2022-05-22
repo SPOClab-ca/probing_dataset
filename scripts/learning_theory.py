@@ -10,6 +10,10 @@ def get_mcallester_bound(n, B=1):
     return B*np.sqrt((KL + np.log(4*n/delta)) / (2*n-1))
 
 def requirement_from_finite_f_bound(bound, B=1, D=768, delta=1e-8, hid=True):
+    """
+    How many data samples are required to reproduce the effect?
+    Here "effect" means the difference in risk between the two configurations we are comparing.
+    """
     if hid:
         H = 20
         num_params = (D+1)*H + (H+1)
